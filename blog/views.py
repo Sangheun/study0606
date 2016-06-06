@@ -25,3 +25,4 @@ def comment_new(request, post_pk):
     return render(request, 'blog/comment_form.html', {
         'form':form,
         })
+
